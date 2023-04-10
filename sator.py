@@ -42,6 +42,6 @@ for i, first_word in enumerate(words):
                     squares.append(
                         [first_word, second_word, third_word, fourth_word, fifth_word])
                     write_squares(
-                        'v4.txt', [first_word, second_word, third_word, fourth_word, fifth_word])
+                        'sator_results.txt', [first_word, second_word, third_word, fourth_word, fifth_word])
 
 print('Number of squares:', len(squares))
